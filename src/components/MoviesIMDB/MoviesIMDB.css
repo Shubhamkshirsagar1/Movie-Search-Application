@@ -1,0 +1,18 @@
+.movieCard__section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 15px;
+}
+.movie__img img{
+    height: 450px;
+}
+.movie__description{
+    padding: 0px 25px;
+    color: white;
+}
+.movie__description div{
+    font-size: large;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+}

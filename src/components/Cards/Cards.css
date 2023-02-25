@@ -1,0 +1,42 @@
+.cardss {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 13px;
+}
+.card {
+  width: 23%;
+  min-width: 200px;
+  margin: 10px 0;
+  border-radius: 7px;
+  border: 1px solid white;
+}
+.card__body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card__body span {
+  font-weight: 700;
+  font-style: normal;
+}
+.card__body__child {
+  margin-top: 5px;
+}
+.card-button {
+  width: 100%;
+  margin: 3px 0px;
+  padding: 3px 0px !important;
+  font-weight: 400;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.link:hover{
+  color: inherit;
+}

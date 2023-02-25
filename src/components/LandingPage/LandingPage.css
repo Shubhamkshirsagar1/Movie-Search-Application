@@ -1,0 +1,30 @@
+
+.padding {
+  padding: 7px 15px;
+  color: white;
+}
+.search__title {
+  margin: 8px 0px;
+}
+input {
+  width: 99%;
+  padding: 9px 0px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid #ffffff;
+}
+input[type="text"] {
+  padding-left: 10px;
+  color: white;
+  font-size: medium;
+}
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+button {
+  padding: 8px 35px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
